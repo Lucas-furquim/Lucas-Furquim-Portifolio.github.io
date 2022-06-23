@@ -29,6 +29,7 @@
 
 .footer-contato li a {
   color: #fff;
+  word-break: break-all;
 }
 
 .footer-contato li a:hover {
