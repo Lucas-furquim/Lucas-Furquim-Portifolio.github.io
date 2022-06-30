@@ -9,6 +9,8 @@ export default function anima() {
       const secTop = item.getBoundingClientRect().top;
       if (secTop < tela) {
         item.classList.add("ativo");
+      } else if (item.classList.contains("ativo") && secTop > tela + 250) {
+        item.classList.remove("ativo");
       }
     });
   }
