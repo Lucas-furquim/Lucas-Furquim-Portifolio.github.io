@@ -19,9 +19,21 @@
 <body>
   <header class="header" aria-label="Navegação">
     <nav class="nav">
-      <ul class="js-menu">
+      <button class="dropMenu-btn" data-drop>
+        Menu
+      </button>
+      <ul class="js-menu" aria-expanded="false">
         <li><a href="#animais">Animais</a></li>
         <li><a href="#faq">Faq</a></li>
+        <li data-sobre>
+          <a href="">Sobre</a>
+          <ul class="mais">
+            <li>Empresa</li>
+            <li>Produtos</li>
+            <li>Funcionarios</li>
+            <li>Comercio</li>
+          </ul>
+        </li>
         <li><a href="#contato">Contato</a></li>
         <li><a href="../../index.html">Dev</a></li>
       </ul>
@@ -123,6 +135,28 @@
       </dl>
     </section>
 
+    <section class="js-scroll" data-secNumero>
+      <h2 class="titulo-g">Numeros</h2>
+      <section class="numeros-animais">
+        <div>
+          <h3>Lobos</h3>
+          <p data-numero>3476</p>
+        </div>
+        <div>
+          <h3>Esquilos</h3>
+          <p data-numero>1289</p>
+        </div>
+        <div>
+          <h3>Leões</h3>
+          <p data-numero>867</p>
+        </div>
+        <div>
+          <h3>Ursos</h3>
+          <p data-numero>2678</p>
+        </div>
+      </section>
+    </section>
+
     <section class="contato js-scroll" id="contato">
       <h2 class="titulo-g">Contato</h2>
       <section class="contato-mapa">
@@ -135,6 +169,7 @@
           <li>+55 (21) 9999-9999</li>
           <li>Rua do Conde, nº 21</li>
           <li>São Paulo - SP</li>
+          <li class="horario">Aberto de Seg a Sex das 8h as 18h</li>
         </ul>
       </section>
     </section>
