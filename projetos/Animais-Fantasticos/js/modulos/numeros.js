@@ -14,7 +14,7 @@ export default function numeros() {
           item.innerText = item.innerHTML;
           clearInterval(intervalo);
         }
-      }, 35 * Math.random());
+      }, 45 * Math.random());
     });
   }
 

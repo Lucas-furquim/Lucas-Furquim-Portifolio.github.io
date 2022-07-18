@@ -6,6 +6,7 @@ import endereco from "./modulos/endereco.js";
 import horario from "./modulos/horario.js";
 import dropMenu from "./modulos/dropMenu.js";
 import numeros from "./modulos/numeros.js";
+import login from "./modulos/login.js";
 
 imagens();
 Accordion();
@@ -15,3 +16,4 @@ endereco();
 horario();
 dropMenu();
 numeros();
+login();

@@ -127,6 +127,10 @@
     margin: 0px;
   }
 
+  .nav {
+    padding: 10px 0px 10px 5px;
+  }
+
   .nav ul li a {
     padding: 10px 15px;
   }
